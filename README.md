@@ -1,61 +1,38 @@
-# portfolio
+# Te presento mi Portafolio en Ciencia de datos
 
-Porfolio
-  
-## Installation guide
+1. Análisis de enfermedades del corazón en un hospital de la india.
 
-Please read [install.md](install.md) for details on how to set up this project.
+   - [Análisis de datos faltantes](/notebooks/0.1_data_analysis/0.2_EDA_cardiovascular_analysis/0.1_missing_data.ipynb)
+   - [Análisis de datos exploratorio (EDA).](/notebooks/0.2_EDA_cardiovascular_analysis/0.2_EDA.ipynb)
+   - [Dashboard estático y conclusiones.](/notebooks/0.2_EDA_cardiovascular_analysis/0.3_static_dashboard.ipynb)
 
-## Project Organization
+1. Análisis financiero de BTC-USD - Backtesting - EMA
 
-    ├── LICENSE
-    ├── tasks.py           <- Invoke with commands like `notebook`.
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── install.md         <- Detailed instructions to set up this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries.
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures         <- Generated graphics and figures to be used in reporting.
-    │
-    ├── environment.yml    <- The requirements file for reproducing the analysis environment.
-    │
-    ├── .here              <- File that will stop the search if none of the other criteria
-    │                         apply when searching head of project.
-    │
-    ├── setup.py           <- Makes project pip installable (pip install -e .)
-    │                         so portfolio can be imported.
-    │
-    └── portfolio               <- Source code for use in this project.
-        ├── __init__.py    <- Makes portfolio a Python module.
-        │
-        ├── data           <- Scripts to download or generate data.
-        │   └── make_dataset.py
-        │
-        ├── features       <- Scripts to turn raw data into features for modeling.
-        │   └── build_features.py
-        │
-        ├── models         <- Scripts to train models and then use trained models to make
-        │   │                 predictions.
-        │   ├── predict_model.py
-        │   └── train_model.py
-        │
-        ├── utils          <- Scripts to help with common tasks.
-            └── paths.py   <- Helper functions to relative file referencing across project.
-        │
-        └── visualization  <- Scripts to create exploratory and results oriented visualizations.
-            └── visualize.py
+   - [Encontrando la mejor EMA para BTC](/notebooks/0.3_EDA_finance_BTC/0.1_analysis_EMA_BTC.ipynb)
+   - [Backtesting BTC-USD y análisis financiero](/notebooks/0.3_EDA_finance_BTC/0.2_backtesting_EMA_BTC.ipynb)
 
----
-Project based on the [cookiecutter conda data science project template](https://github.com/jvelezmagic/cookiecutter-conda-data-science).# Portfolio
+1. Análisis comparativo de BTC-USD con el INDEX Miedo / codiccia
+
+   - [Análisis comparativo BTC-UD / Fear & Greed Index](/notebooks/0.4_fear_&_greed_btc/0.1_fear_&_greed_btc.ipynb)
+   - [Dashboard](/notebooks/0.4_fear_&_greed_btc/Fear_&_greed_BTC.png)
+
+1. Análisis de las l2 de Ethereum
+
+   - [Retorno anual y máximas caidas de los principales tokens l2 de Eth](/notebooks/0.5_Analysis_L2_ETH/0.1_returns_drawdown_l2.ipynb)
+   - [Dashboard](/notebooks/0.5_Analysis_L2_ETH/Rendimiento_L2_vs_drawdown.png)
+
+1. Rendimiento anual vs Drawdown Nasdaq
+
+   - [Rendimiento anual vs Drawdown Nasdaq](/notebooks/0.6_annual_Return_drawdown/0.1_annual_return_drawdon_nasdaq.ipynb)
+   - [Dashboard](/notebooks/0.6_annual_Return_drawdown/annual_return_vs_drawdown.png)
+
+1. Analisis de la base de datos de Pinguinos
+
+   - [Conteo y validación de datos.](/notebooks/0.1-EDA-penguins/0.1_count_validation_data.ipynb)
+   - [Análisis estadístico.](/notebooks/0.1-EDA-penguins/0.2_statistic_analysis.ipynb)
+   - [Análisis bivariado.](/notebooks/0.1-EDA-penguins/0.3_bivariate_analysis.ipynb)
+   - [Dashboard estático y conclusiones.](/notebooks/0.1-EDA-penguins/0.4_static_dashboard.ipynb)
+
+1. Backtesting - DCA - BTC
+   - [Backtesting Aplicando DCA a BTC y otras Cryptos](/notebooks/0.7_Backtesting_DCA/0.1_backtesting_DCA_btc.ipynb)
+   - [Dashboard](/notebooks/0.7_Backtesting_DCA/Backtsting_DCA.png)
